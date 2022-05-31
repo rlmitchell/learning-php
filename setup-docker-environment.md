@@ -19,4 +19,16 @@ drwxr-xr-x 18 rob rob 4096 May 31 15:33 ../
 ~/learning-php$ 
 ```
 
+Create a directory for our source code.
+```
+~/learning-php$ mkdir src 
+~/learning-php$ ll
+total 12
+drwxrwxr-x  3 rob rob 4096 May 31 15:36 ./
+drwxr-xr-x 18 rob rob 4096 May 31 15:33 ../
+drwxrwxr-x  2 rob rob 4096 May 31 15:36 src/
+~/learning-php$ 
+```
+
+
 
