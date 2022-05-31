@@ -117,7 +117,27 @@ ad7143840bab   php:8.0.2-fpm       "docker-php-entrypoi…"   19 minutes ago   U
 
 ## Testing the Setup
 
+Add the following index.php file to the src directory.
+```
+~/learning-php$ cat src/index.php 
+<?php
 
+//phpinfo();
+
+echo "<pre>";
+print_r($_SERVER['PHP_VERSION']);
+echo "</pre>\n";
+
+?>
+~/learning-php$ 
+```
+
+Finally, do a GET request to port 8000 with curl or a web browser.
+```
+~/learning-php$ curl http://127.0.0.1:8000 
+<pre>8.0.2</pre>
+~/learning-php$ 
+```
 
 
 You're now ready to start coding in php in the src directory. 
